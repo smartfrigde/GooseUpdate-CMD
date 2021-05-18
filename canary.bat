@@ -1,6 +1,6 @@
 :: created by smartfridge#9394
 :: %appdata%/discordcanary/settings.json
-:: this works only on stable btw
+:: this works only on canary btw
 @ECHO OFF 
 CLS
 :MENU
