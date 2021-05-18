@@ -21,12 +21,12 @@ IF %M%==4 EXIT
 :STABLE
 ECHO You picked Stable
 start stable.bat
-GOTO MENU
+EXIT
 :canary
 ECHO You picked Canary
 start canary.bat
-GOTO MENU
+EXIT
 :ptb
 ECHO You picked PTB
 start ptb.bat
-GOTO MENU
+EXIT
