@@ -20,13 +20,13 @@ IF %M%==3 GOTO ptb
 IF %M%==4 EXIT
 :STABLE
 ECHO You picked Stable
-start stable.bat
+start channels\\stable.bat
 EXIT
 :canary
 ECHO You picked Canary
-start canary.bat
+start channels\\canary.bat
 EXIT
 :ptb
 ECHO You picked PTB
-start ptb.bat
+start channels\\ptb.bat
 EXIT
